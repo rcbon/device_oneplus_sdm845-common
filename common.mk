@@ -102,10 +102,6 @@ PRODUCT_PACKAGES += \
     libvulkan \
     vendor.display.config@1.0
 
-# Doze
-PRODUCT_PACKAGES += \
-    OnePlusDoze
-
 # HIDL
 PRODUCT_PACKAGES += \
     libhidltransport \
@@ -123,10 +119,6 @@ PRODUCT_COPY_FILES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.oneplus_sdm845
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service.oneplus_sdm845
 
 # Media
 PRODUCT_COPY_FILES += \
