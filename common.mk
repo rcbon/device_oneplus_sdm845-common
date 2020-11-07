@@ -161,9 +161,6 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
-
 # Touch
 PRODUCT_PACKAGES += \
     lineage.touch@1.0-service.oneplus_sdm845
